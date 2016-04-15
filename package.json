@@ -1,0 +1,29 @@
+{
+  "name": "cli-twitch",
+  "version": "0.0.1",
+  "description": "An CLI tool to check which streams are up on twitch.tv and open it on browser",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorsantana/twitch-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/igorsantana/twitch-cli/issues"
+  },
+  "homepage": "https://github.com/igorsantana/twitch-cli#readme",
+  "bin": {
+    "twitch": "lib/index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "inquirer": "^1.0.0",
+    "minimist": "^1.2.0",
+    "open": "0.0.5",
+    "promise": "^7.1.1"
+  }
+}
